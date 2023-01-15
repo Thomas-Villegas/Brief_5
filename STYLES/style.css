@@ -1,3 +1,7 @@
+.titre {
+    color: goldenrod;
+}
+
 .form-popup {
     display: block;
     position: fixed;

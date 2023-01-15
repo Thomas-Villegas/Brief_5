@@ -2,7 +2,7 @@
 require ('PHP/connexion.php');
 require ('PHP/fonction.php');
 require ('HTML/head.html');
-require ('HTML/header.html');
+require ('HTML/header_index.html');
 require ('PHP/new_categorie.php');
 require ('PHP/update_categorie.php');
 require ('PHP/delete_categorie.php');

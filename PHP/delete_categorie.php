@@ -6,7 +6,7 @@ if (isset($_POST['category-delete'])) {
     $rs_delete_cat = $connexion -> prepare($sql_delete_categorie);
 
     if ($rs_delete_cat) {
-        $rs_delete_cat->execute(array($CARD_ID));
+        $rs_delete_cat->execute([$CARD_ID]);
     } else {
         $erreur = $connexion -> errorInfo();  
     }
