@@ -1,5 +1,5 @@
 <?php
-// Connexion PDO a la base de donnée
+// Connexion avec l'objet PDO a la base de donnée
 try {
     $dns = 'mysql:host=localhost;dbname=bookmark_bdd;charset=utf8';
     $user = 'root';

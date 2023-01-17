@@ -15,7 +15,7 @@ function creationCardCat($title, $link, $cat_id) {
     $card .= '</form>';
     $card .= '</div>';
     $card .= '<button type="button" class="btn btn-danger" style="border-top-left-radius: 0; border-top-right-radius: 0; border-bottom-right-radius: 0; width: 50%" onclick="showFormDelete('.$cat_id.')">Supprimer</button>';
-    $card .= '<button type="button" class="btn btn-secondary" style="border-top-left-radius: 0; border-top-right-radius: 0; border-bottom-left-radius: 0; width: 50%;" onclick="showFormUpdate('.$cat_id.',\''.$title.'\')">Modifier</button>';
+    $card .= '<button type="button" class="btn btn-secondary" style="border-top-left-radius: 0; border-top-right-radius: 0; border-bottom-left-radius: 0; width: 50%" onclick="showFormUpdate('.$cat_id.',\''.$title.'\')">Modifier</button>';
     $card .= '</div>';
 
     return $card;

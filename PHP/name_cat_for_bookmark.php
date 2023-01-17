@@ -2,4 +2,3 @@
     <?php echo $CAT_NAME; ?>
 </div>
     <div class="row m-1">
-<?php
