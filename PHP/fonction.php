@@ -1,7 +1,7 @@
 <?php
 function creationCardCat($title, $link, $cat_id) {
-    $card = '<div class="col-12 col-sm-6 col-md-4 col-lg-3 p-3">';
-    $card .= '<div class="card border-card" style="width: 100%; border-bottom-left-radius: 0; border-bottom-right-radius: 0;">';
+    $card = '<div class="col-12 col-sm-6 col-md-4 col-lg-3 m-3 p-0 hover-effect box-shadow">';
+    $card .= '<div class="card border-card justify-content-center" style="min-height: 160px; width: 100%; border-bottom-left-radius: 0; border-bottom-right-radius: 0;">';
     $card .= '<form method="get" class="lien-card" action="'.$link.'">';
     $card .= '<input type="hidden" name="cat_id" value="'.$cat_id.'">';
     $card .= '<input type="hidden" name="cat_name" value="'.$title.'">';
@@ -22,12 +22,12 @@ function creationCardCat($title, $link, $cat_id) {
 }
 
 function creationCardBookmark($title, $description, $url, $bookmark_id, $categorie_id) {
-    $card = '<div class="col-12 col-sm-6 col-md-4 col-lg-3 p-3">';
-    $card .= '<div class="card border-card" style="width: 100%; border-bottom-left-radius: 0; border-bottom-right-radius: 0;">';
+    $card = '<div class="col-12 col-sm-6 col-md-4 col-lg-3 m-3 p-0 hover-effect box-shadow">';
+    $card .= '<div class="card border-card justify-content-center" style="min-height: 160px; width: 100%; border-bottom-left-radius: 0; border-bottom-right-radius: 0;">';
     $card .= '<a href="' . $url . '" class="btn p-0" TARGET=_BLANK>';
     $card .= '<div class="card-body">';
     $card .= '<h5 class="card-title">' . $title . '</h5>';
-    $card .= '<p class="card-text">' . $description . '</p>';
+    $card .= '<p class="card-text m-0">' . $description . '</p>';
     $card .= '<div class="container-card">';
     $card .= '</div>';
     $card .= '</div>';
